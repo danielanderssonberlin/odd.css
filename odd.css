@@ -175,3 +175,7 @@
 #onetrust-banner-sdk :not(.ot-leg-btn-container) > button:focus {
   outline: none;
 }
+
+#onetrust-consent-sdk #onetrust-pc-sdk #ot-host-lst .ot-host-info {
+  color: #333333;
+}
