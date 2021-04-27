@@ -136,7 +136,10 @@
 
 /* Cookies list link underlined */
 #onetrust-consent-sdk #onetrust-pc-sdk .category-host-list-handler {
-  text-decoration: underline;
+  font-size: 0.75em;
+}
+
+#onetrust-consent-sdk #onetrust-pc-sdk .category-host-list-handler:hover {
 }
 
 /* In cookies filter, the text is not visible */
