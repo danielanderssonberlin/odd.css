@@ -183,3 +183,24 @@
 #onetrust-consent-sdk #onetrust-pc-sdk #ot-host-lst .ot-host-info {
   color: #333333;
 }
+
+/* remove clear filters button outline on focus */
+#onetrust-pc-sdk #clear-filters-handler:focus {
+  outline: none;
+}
+
+/* background on filter settings */
+#onetrust-consent-sdk #onetrust-pc-sdk #ot-fltr-cnt,
+#onetrust-consent-sdk #onetrust-pc-sdk #ot-anchor {
+  background-color: #ffffff;
+}
+
+#onetrust-consent-sdk #onetrust-pc-sdk #ot-fltr-cnt label span,
+#onetrust-consent-sdk #onetrust-pc-sdk #ot-fltr-cnt button {
+  color: #000000;
+}
+
+/* checkbox alignment */
+#onetrust-pc-sdk .ot-chkbox label::before {
+  top: 3px;
+}
