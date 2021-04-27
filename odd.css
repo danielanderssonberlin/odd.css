@@ -168,7 +168,7 @@
 }
 
 /* incorrect alignment japanese language */
-#onetrust-pc-sdk .host-option-group li > div div:nth-child(1) {
+#onetrust-pc-sdk .ot-host-opt li > div div:nth-child(1) {
   clear: both;
 }
 #onetrust-pc-sdk .back-btn-handler p {
