@@ -131,6 +131,7 @@
 
 #onetrust-pc-sdk :not(.ot-leg-btn-container) > button:focus {
   outline: none;
+  border: none;
 }
 
 /* Cookies list link underlined */
