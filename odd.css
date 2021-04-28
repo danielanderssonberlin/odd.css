@@ -167,6 +167,10 @@
   outline: none;
 }
 
+#onetrust-pc-sdk input[type="checkbox"]:focus + .accordion-header {
+  outline: none;
+}
+
 /* incorrect alignment japanese language */
 #onetrust-pc-sdk .ot-host-opt li > div div:nth-child(1) {
   clear: both;
@@ -203,4 +207,34 @@
 /* checkbox alignment */
 #onetrust-pc-sdk .ot-chkbox label::before {
   top: 3px;
+}
+
+/* Not scrollable */
+#onetrust-pc-sdk .ot-pc-header {
+  border-bottom: none;
+}
+
+#onetrust-pc-sdk #ot-pc-content,
+#onetrust-pc-sdk #ot-pc-lst {
+  position: relative;
+  top: 0;
+  bottom: unset;
+  overflow-y: unset;
+  height: auto !important;
+  max-height: calc(100vh - 240px) !important;
+  margin-bottom: 70px;
+}
+
+#onetrust-pc-sdk .ot-host-item > button[aria-expanded="true"] ~ .ot-acc-txt {
+  overflow-y: scroll;
+  height: 100%;
+}
+
+#onetrust-pc-sdk .ot-pc-footer {
+  position: relative;
+  border-top: none;
+}
+
+#onetrust-pc-sdk button {
+  font-size: 0.9em;
 }
