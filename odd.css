@@ -158,8 +158,9 @@
 /* bring close icon to the front. Is now clickable */
 #onetrust-pc-sdk #close-pc-btn-handler.ot-close-icon {
   position: absolute;
-  right: 0;
+  right: -9px;
   z-index: 2;
+  top: -22px;
 }
 
 /* change focus state of privacy settings */
