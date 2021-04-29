@@ -139,7 +139,11 @@
   font-size: 0.75em;
 }
 
-#onetrust-consent-sdk #onetrust-pc-sdk .category-host-list-handler:hover {
+html[dir="rtl"]
+  #onetrust-consent-sdk
+  #onetrust-pc-sdk
+  .category-host-list-handler:hover {
+  float: revert;
 }
 
 /* In cookies filter, the text is not visible */
@@ -173,8 +177,13 @@
 }
 
 /* incorrect alignment japanese language */
-#onetrust-pc-sdk .ot-host-opt li > div div:nth-child(1) {
+#onetrust-pc-sdk .host-option-group li > div div:nth-child(1) {
   clear: both;
+}
+/* back button text cut off */
+#onetrust-pc-sdk .back-btn-handler {
+  height: 23px;
+  margin-bottom: -3px;
 }
 #onetrust-pc-sdk .back-btn-handler p {
   max-width: 80px;
